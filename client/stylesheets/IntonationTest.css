@@ -1,0 +1,100 @@
+
+#fulldiv {
+    width: 70%;
+    padding-top:40%;
+    
+}
+
+#overlay {
+    background : black; 
+    opacity    : 0.6; 
+    z-index    : 5;
+}
+
+#testframe {
+   background: beige;
+}
+
+
+#tuner {
+   display: block;
+}
+
+#play, #pause {
+   width:80px;
+   height: 80px;
+   background: white;
+   position: relative;
+   margin-top: 10px;
+   display: inline;
+}
+
+#play:before {
+    width: 0;        
+    height: 0;
+    border-left: 30px solid black;
+    border-right: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; 
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 25px;
+}
+
+
+#pause:before {
+    width: 10px;        
+    height: 60px;
+    background: black;
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 25px;
+}
+
+#pause:after {
+    width: 10px;        
+    height: 60px;
+    background: black;
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 25px;
+}
+
+
+#startbutton {
+   border-top: 1px solid #96d1f8;
+   background: #303030;
+   background: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#303030));
+   background: -webkit-linear-gradient(top, #dbdbdb, #303030);
+   background: -moz-linear-gradient(top, #dbdbdb, #303030);
+   background: -ms-linear-gradient(top, #dbdbdb, #303030);
+   background: -o-linear-gradient(top, #dbdbdb, #303030);
+   padding: 11.5px 23px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   horizontal-align: right;
+   z-index    : 10;
+    
+   }
+#startbutton:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+#startbutton:active {
+   border-top-color: #b5b5b5;
+   background: #b5b5b5;
+   }

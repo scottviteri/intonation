@@ -1,0 +1,76 @@
+.container-fluid {
+  background-color: transparent;
+}
+
+.nav > li > div {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  cursor: default;
+}
+
+.navbar-nav {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  margin-top: 0px;
+
+  li { /*for navbar text elements*/
+    margin: auto;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-right: 10px solid transparent; /* 1 px between buttons */
+    background-color: none;
+    text-align: center;
+    display: inline;
+    font-family: garamond;
+    text-decoration: none;
+    color: black;
+  }
+
+  li:hover{
+    background-color: #999;
+  }
+
+  a{ /* for links*/
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+/*took this element out
+.navbar-right li {
+  float: right;
+  display: inline;
+}*/
+
+/*for the rightmost element - login*/
+#right {
+  float: right;
+  padding-left: 5px;
+}
+
+/*for website title Intonation*/
+#title {
+  float: left;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+/*took this element out
+.navbar-header{
+  display: inline;
+  padding:14px 16px;
+}*/
+
+.navbar-default{
+  max-width: 100%;
+}
